@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.TextView;
 
 public class SingleInstanceActivity extends AppCompatActivity {
+    private String testStr = "test3";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
