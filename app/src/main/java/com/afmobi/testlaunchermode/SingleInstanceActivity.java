@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.TextView;
 
 public class SingleInstanceActivity extends AppCompatActivity {
-    private String testStr = "test3";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,7 +15,7 @@ public class SingleInstanceActivity extends AppCompatActivity {
 
         TextView textView = (TextView) findViewById(R.id.text);
         textView.setText("Single:"+getTaskId());
-        //
+
     }
 
     public void onclick(View view){
@@ -24,5 +23,12 @@ public class SingleInstanceActivity extends AppCompatActivity {
         Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
 //        finish();
+    }
+
+    public void onclick3(View view){
+
+        Intent intent = new Intent(this,SingleInstanceActivity.class);
+        startActivity(intent);
+
     }
 }
