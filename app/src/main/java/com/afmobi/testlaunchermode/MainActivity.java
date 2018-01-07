@@ -26,6 +26,43 @@ public class MainActivity extends AppCompatActivity {
         //write something
 
         //clone from github
+        
+        TextView textView = (TextView) findViewById(R.id.text);
+        //write something from github
+        textView.setText("Main:"+getTaskId());
+
+
+        //update something else for test
+        
+        
+        //write something
+
+        //clone from github
+        
+        TextView textView2 = (TextView) findViewById(R.id.text);
+        //write something from github
+        textView.setText("Main:"+getTaskId());
+
+
+        //update something else for test
+        
+        
+        //write something
+
+        //clone from github
+        
+        
+        TextView textView5 = (TextView) findViewById(R.id.text);
+        //write something from github
+        textView.setText("Main:"+getTaskId());
+
+
+        //update something else for test
+        
+        
+        //write something
+
+        //clone from github
     }
 
 
@@ -38,6 +75,20 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void onclick(View view){
+
+        Intent intent = new Intent(this,SingleInstanceActivity.class);
+        startActivity(intent);
+
+    }
+    
+    public void onclick2(View view){
+
+        Intent intent = new Intent(this,SingleInstanceActivity.class);
+        startActivity(intent);
+
+    }
+    
+    public void onclick3(View view){
 
         Intent intent = new Intent(this,SingleInstanceActivity.class);
         startActivity(intent);
