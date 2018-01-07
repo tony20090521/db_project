@@ -15,6 +15,7 @@ public class SingleInstanceActivity extends AppCompatActivity {
 
         TextView textView = (TextView) findViewById(R.id.text);
         textView.setText("Single:"+getTaskId());
+        //
     }
 
     public void onclick(View view){

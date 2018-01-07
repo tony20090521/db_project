@@ -17,6 +17,10 @@ public class MainActivity extends AppCompatActivity {
 
         TextView textView = (TextView) findViewById(R.id.text);
         textView.setText("Main:"+getTaskId());
+
+
+        //update something else for test
+
     }
 
 
