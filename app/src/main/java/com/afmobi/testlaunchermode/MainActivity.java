@@ -29,6 +29,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void setOnclick(View view){
+
+        Intent intent = new Intent(this,SingleInstanceActivity.class);
+        startActivity(intent);
+
+    }
 
 
     public void onclick(View view){
