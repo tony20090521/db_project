@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-
+    private String testStr = "test";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,10 +16,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         TextView textView = (TextView) findViewById(R.id.text);
+        //write something from github
         textView.setText("Main:"+getTaskId());
 
 
         //update something else for test
+        
+        
+        //write something
 
     }
 
@@ -30,6 +34,6 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent = new Intent(this,SingleInstanceActivity.class);
         startActivity(intent);
-//        finish();
+
     }
 }
